@@ -1,0 +1,105 @@
+{
+  "main": {
+    "name": "Kevin Shaw",
+    "occupation": "Software Engineer",
+    "description": "Full Stack Engineer willing to learn anything, excellent communication skills (15+ years of customer service experience), and can get along with anyone.",
+    "image": "profilepic.jpg",
+    "bio": "I have 20+ years of professional experience in a variety of different industries and 5+ in the technology. I am a Colorado native and live here with my wife and son. I enjoy Ice Hockey and Golf when not hanging out at home with my family.",
+    "contactmessage": "I'm always willing to hear your ideas!",
+    "city": "Northglenn, CO",
+    "email": "ishawshank39@gmail.com",
+    "phone": "303.332.4995",
+    "website": "ishawshank.github.io",
+    "resumedownload": "ishawshank.github.io",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/kevin.shaw.7777",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kevin-shaw-29102565/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/ishawshank",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Willing to learn just about anything.",
+    "education": [
+      {
+        "school": "Regis University",
+        "degree": "Computer Science",
+        "graduated": "Senior",
+        "description": "'Adult Student' continuing education while working full time."
+      }
+    ],
+    "work": [
+      {
+        "company": "Ibotta, Inc",
+        "title": "Software Engineer",
+        "years": "July 2019 - Present",
+        "description": "Backend engineer working on simplifying the user experience. Specifically focused in NodeJS, Ruby and Kotlin."
+      },
+      {
+        "company": "Granicus, Inc",
+        "title": "Software Engineer",
+        "years": "April 2015 - July 2019",
+        "description": "Full stack engineer working on the products accross Granicus' GovMeetings suite. Specifically focused in Java, PHP, Classic ASP, and .NET"
+      }
+    ],
+    "skills": [
+      {
+        "name": "NodeJS",
+        "level": "60%"
+      },
+      {
+        "name": "React-Native",
+        "level": "50%"
+      },
+      {
+        "name": "Java",
+        "level": "40%"
+      },
+      {
+        "name": "Ruby",
+        "level": "40%"
+      },
+      {
+        "name": "Docker",
+        "level": "70%"
+      },
+      {
+        "name": "AWS",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Shawshank Golf Stats",
+        "category": "Mobile app written in React-Native",
+        "image": "shawshankGolfStats.png",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Kevin makes my day brighter - professionally and personally. His patience, natural talent, level-headed thinking, and problem solving abilities are just incredible. Kevin is one of the most reliable people I have ever had the good fortune to work with. He has demonstrated the ability to learn new technologies, languages, platforms, and ideas in record time.",
+        "user": "Susi Irwin"
+      },
+      {
+        "text": "Kevin brought himself up to speed quickly and was always eager to learn and explore in the languages we worked in, by way of actively asking questions and trying to improve. He delivers actionable feedback and is thorough in his work. I would be happy to get the chance to work with him again in the future.",
+        "user": "Greg Armstrong"
+      }
+    ]
+  }
+}

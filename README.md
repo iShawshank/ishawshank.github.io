@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Deploys changes to your portfolio ishawshank.github.io
 ### `npm start`
 
 Runs the app in the development mode.\

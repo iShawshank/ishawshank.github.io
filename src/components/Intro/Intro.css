@@ -1,0 +1,95 @@
+#intro {
+  min-height: 90vh;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.introImage {
+  height: vh100;
+}
+
+.bgContainer {
+  width: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.introContent {
+  height: 100vh;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: #1bf522;
+}
+
+.introTitle {
+  font-size: 2rem;
+  padding: 0;
+  font-weight: 400;
+}
+
+.introDescription {
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.hireMeBtn {
+  background: #fff;
+  color: #000;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  height: 3rem;
+  font-size: small;
+  width: 150px;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 1010px) {
+  .bgContainer {
+    width: 300px;
+  }
+  
+  .bg {
+    width: 300px;
+    height: 300px;
+  }
+
+  .introImage {
+    height: 100%;
+  }
+
+  .introContent {
+    height: 100%;
+  }
+  #intro {
+    min-height: 0;
+  }
+}

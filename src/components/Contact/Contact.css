@@ -1,0 +1,42 @@
+#contact {
+  height: 90vh;
+}
+
+.contactForm {
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name, .email, .msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin:0.5rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.submitBtn {
+  background-color: #fff !important;
+  color: #000;
+  border: none;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkImg {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.modal {
+  position: sticky;
+  top: 50%;
+  left: 50%;
+}

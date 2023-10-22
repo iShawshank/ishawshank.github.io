@@ -1,0 +1,36 @@
+.imageContainer {
+  margin: 1rem;
+  object-fit:contain;
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+}
+
+.portrait {
+  max-width: 92px;
+  max-height: 200px;
+}
+
+.landscape {
+  max-width: 360px;
+}
+
+.image {
+  object-fit: contain;
+}
+
+
+.projectDesc {
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.link {
+  color: #1bf522;
+}
+
+.link:hover {
+  color: teal;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+#skills {
+  padding-top: 8rem;
+  height: 100%;
+  width: 100vw;
+}
+
+.aboutMeText {
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.aboutMe {
+  padding: 1rem 8rem;
+}
+
+.aboutMeHeader {
+  color: #1bf522;
+}
+
+.resumeLink {
+  max-width: 170px;
+}
+
+.resumeLink:hover {
+  color: #1bf522;
+  border-bottom: 3px solid #1bf522
+}
+

@@ -1,0 +1,7 @@
+#projects {
+  min-height: 100vh;
+}
+
+.projectGrid {
+  max-width: 75rem;
+}

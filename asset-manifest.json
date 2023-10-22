@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1b0a40a.css",
+    "main.css": "/static/css/main.13e4294f.css",
     "main.js": "/static/js/main.381f559a.js",
     "static/media/bg.png": "/static/media/bg.c0440fcca2b842521eca.png",
     "static/media/bg.jpeg": "/static/media/bg.2a742ec3f2fa43378f01.jpeg",
@@ -8,11 +8,11 @@
     "static/media/PGATourAverages.png": "/static/media/PGATourAverages.f2004e4d6e7112aa82d1.png",
     "static/media/ShawshankGolfStats.png": "/static/media/ShawshankGolfStats.3eaa8172a6779559fc22.png",
     "index.html": "/index.html",
-    "main.c1b0a40a.css.map": "/static/css/main.c1b0a40a.css.map",
+    "main.13e4294f.css.map": "/static/css/main.13e4294f.css.map",
     "main.381f559a.js.map": "/static/js/main.381f559a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1b0a40a.css",
+    "static/css/main.13e4294f.css",
     "static/js/main.381f559a.js"
   ]
 }

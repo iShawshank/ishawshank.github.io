@@ -6,8 +6,6 @@ import emailjs from '@emailjs/browser'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 
-
-
 const Contact = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -43,7 +41,8 @@ const Contact = () => {
 
         <button className='submitBtn m-4 flex justify-center items-center' type='submit' value='Send'>
           {loading && <FontAwesomeIcon className='mr-4' icon={faSpinner} spin />}
-          Submit</button>
+          Submit
+        </button>
       </form>
       
       <div className='links flex justify-center mb-8 w-full'>

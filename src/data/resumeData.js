@@ -9,7 +9,7 @@ export const resumeData = {
       company: 'Ibotta',
       companyLink: 'https://ibotta.com',
       title: 'Senior Full Stack Engineer',
-      description: 'Lead engineer in charge of building out the logged in experience for the web product (currently 200,000+ monthly active users and growing). Lead 2 cross-functional squads that focus on feature development of our logged in web experience (11 engineers). Experience working on small and large squads and in an extremely fast paced feature development focused environment. Mentored several associate, mid, and senior level engineers.',
+      description: 'Lead engineer in charge of building out the logged in experience for the web product (currently 200,000+ monthly active users and growing). Led 2 cross-functional squads that focus on feature development of our logged in web experience (11 engineers). Experience working on small and large squads and in an extremely fast paced feature development focused environment. Mentored several associate, mid, and senior level engineers.',
       skills: [
         'VueJS',
         'NodeJS',
@@ -106,7 +106,7 @@ export const resumeData = {
       id: 2,
       name: 'Golf launch monitor averages',
       img: 'PGATourAverages.png',
-      description: 'Web app that is used to display PGA tour launch monitor stat averages for use in Golf Simulators. This site was build using Nuxt.js and Tailwind CSS.',
+      description: 'Web app that is used to display PGA tour launch monitor stat averages for use in Golf Simulators. This site was built using Nuxt.js and Tailwind CSS.',
       altText: 'PGA Tour Averages screenshot',
       url: 'https://ishawshank.github.io/golf-launch-monitor-averages/',
       imgType: 'landscape'
@@ -115,7 +115,7 @@ export const resumeData = {
       id: 3,
       name: 'Shawshank Golf Stats',
       img: 'ShawshankGolfStats.png',
-      description: 'Golf stat tracking mobile app. I built this app using React Native and Expo. I have not yet released this to the apple or google stores as it is still in beta testing.',
+      description: 'Golf stat tracking mobile app. I built this app using React Native, Redux, and Expo. I have not yet released this to the apple or google stores as it is still in beta testing.',
       altText: 'ishawshank.github.io screenshot',
       url: '',
       imgType: 'portrait'

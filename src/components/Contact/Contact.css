@@ -1,5 +1,5 @@
 #contact {
-  height: 90vh;
+  height: 100%;
 }
 
 .contactForm {
@@ -39,10 +39,4 @@
   position: sticky;
   top: 50%;
   left: 50%;
-}
-
-@media screen and (max-width: 1010px) {
-  #contact {
-    height: 100%;
-  }
 }

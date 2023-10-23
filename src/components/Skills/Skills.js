@@ -6,7 +6,7 @@ import Job from './Job';
 const Skills = () => {
   return (
     <section id='skills' className='grid grid-cols-1 lg:grid-cols-2'>
-      <div className='aboutMe hidden md:flex flex-col justify-center items-center'>
+      <div className='aboutMe hidden md:flex flex-col justify-start items-center'>
         <h4 className='aboutMeHeader text-3xl font-normal mb-4'>Who am I?</h4>
         <p className='aboutMeText'>{resumeData.whoAmI}</p>
         <br/>

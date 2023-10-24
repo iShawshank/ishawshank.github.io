@@ -24,7 +24,9 @@ export const resumeData = {
         'TypeScript',
         'Terraform',
         'Tailwind',
-        'Nuxt',
+        'NuxtJS',
+        'Docker',
+        'Figma',
       ],
     },
     {
@@ -42,9 +44,12 @@ export const resumeData = {
         'Kotlin',
         'TypeScript',
         'Micro-services',
+        'Event Driven Architecture',
         'DynamoDB',
+        'Kubernetes',
         'ElasticSearch',
         'GraphQL',
+        'Docker',
       ],
     },
     {

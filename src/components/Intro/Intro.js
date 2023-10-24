@@ -1,7 +1,6 @@
 import React from 'react'
 import './Intro.css';
 import bg from '../../assets/bg.jpeg';
-import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Intro = () => {

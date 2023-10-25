@@ -9,8 +9,11 @@
     justify-content: space-between;
 }
 
-.headerName, .mobMenuIcon {
+#headerName, .mobMenuIcon {
     color: #1bf522;
+    padding-bottom: 0px;
+    border-bottom: none;
+    cursor: pointer;
 }
 
 .navContainer {

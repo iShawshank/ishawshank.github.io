@@ -1,10 +1,12 @@
 export const resumeData = {
   whoAmI:
-    'Prior to tech, I worked in the golf industry as a PGA Apprentice and the finance industry as a bank Branch Operations Manager. Together those equate to over 15 years of customer service / management experience.',
+    'Before diving into the world of technology, my career journey led me through diverse paths. I started as a PGA Apprentice, gaining valuable insights from the golf industry, and later transitioned to the finance sector, where I served as a Bank Branch Operations Manager. These experiences collectively amount to over 15 years of dedicated customer service and management expertise.',
   whoAmI2:
-    'Fast forward to today where I have had the privilege of working on a content management system for government websites, creating a responsive video player for city council meetings, internal portals for managing different aspects of government agenda management and video recordings. In my current role, I have had the privilege of managing a backend GraphQL api used by a mobile app supporting millions of users per year, to building out a web experience from scratch that is now being used by over 200,000 monthly active users and growing.',
+    "Fast forward to the present, I've had the privilege of contributing to a wide range of projects, honing my skills and expanding my knowledge. My projects have included developing content management systems for government websites, crafting responsive video players for city council meetings, and creating internal portals to streamline various aspects of government agenda management and video recording.",
+  whoAmI3:
+    "In my current role, I've taken on the challenge of managing a backend GraphQL API utilized by a mobile app that supports millions of users annually. Simultaneously, I've built a web platform from the ground up, which now boasts over 200,000 monthly active users and continues to grow.",
   outsideOfWork:
-    'Outside of work, I can be found spending time with my wife and 2 kiddos, or working on my game in my home golf simulator or at the golf course. I am also an avid sports fan supporting my hometown teams.',
+    "Beyond my professional pursuits, I treasure my time spent with my wife and two children. When I'm not working, you can often find me refining my golf game in my home simulator or on the golf course. I'm also an unwavering sports enthusiast, fervently supporting my hometown teams. In addition to my passion for sports, I'm an avid video game enthusiast, with a special love for immersive virtual worlds and gaming adventures.",
   experience: [
     {
       id: 5,
@@ -13,7 +15,7 @@ export const resumeData = {
       companyLink: 'https://ibotta.com',
       title: 'Senior Full Stack Engineer',
       description:
-        'Lead engineer in charge of building out the logged in experience for the web product (currently 200,000+ monthly active users and growing). Led 2 cross-functional squads that focus on feature development of our logged in web experience (11 engineers). Experience working on small and large squads and in an extremely fast paced feature development focused environment. Mentored several associate, mid, and senior level engineers.',
+        'Spearheaded the development of the logged-in web experience, catering to a rapidly growing user base of 200,000+ monthly active users. Successfully led two cross-functional squads consisting of 11 engineers, prioritizing feature development to enhance our logged-in web experience. Thrived in a high-paced, feature development-focused environment, demonstrating adaptability and efficiency in delivering top-tier solutions. Played a pivotal role in the professional growth of several associate, mid-level, and senior engineers through mentorship and guidance. Leveraged expertise in Vue, Node, and Rails to architect and implement robust solutions, ensuring optimal performance and user satisfaction.',
       skills: [
         'VueJS',
         'NodeJS',
@@ -36,7 +38,7 @@ export const resumeData = {
       companyLink: 'https://ibotta.com',
       title: 'Sofware Engineer',
       description:
-        'Backend engineer focused on improving the core user experiences.',
+        'Drove initiatives aimed at enhancing core user experiences, ensuring the continued satisfaction of our user base. Demonstrated proficiency in building and maintaining robust microservices using Node, Java, Kotlin, and Rails, optimizing system performance and reliability.',
       skills: [
         'NodeJS',
         'Java',
@@ -59,7 +61,7 @@ export const resumeData = {
       companyLink: 'https://granicus.com/',
       title: 'Sofware Engineer',
       description:
-        'Full Stack Engineer focused on maintaining a wide variety of core product suites.',
+        'Utilized a diverse skill set in Java, PHP, and .NET to maintain and enhance core legacy products, encompassing a wide spectrum of domains, including video, agenda and records management, and website design.',
       skills: [
         'PHP',
         'JavaScript',
@@ -76,7 +78,7 @@ export const resumeData = {
       companyLink: 'https://granicus.com/',
       title: 'Web Developer / Designer',
       description:
-        'Lead developer focused on managing legacy Classic ASP content management systems for government websites.',
+        'Spearheaded the management and modernization of legacy Classic ASP content management systems for government websites, ensuring improved functionality, security, and user experience.',
       skills: [
         'PHP',
         'Classic ASP',
@@ -94,7 +96,7 @@ export const resumeData = {
       companyLink: 'https://granicus.com/',
       title: 'Senior Customer Care Engineer',
       description:
-        'Lead a core team of 12 customer care agents focused on providing customer service to over 2000 government agencies.',
+        'Led and managed a core team of 12 dedicated customer care agents, ensuring the delivery of exceptional customer service to over 2,000 government agencies.',
       skills: [
         'Customer Service',
         'Salesforce',
@@ -110,8 +112,24 @@ export const resumeData = {
       id: 1,
       name: 'ishawshank.github.io',
       img: 'portfolio.png',
+      description3:
+        'Loosely designed in <a href="https://www.figma.com/" target="_blank" class="link">Figma</a> and coded in <a href="https://code.visualstudio.com/" target="_blank" class="link">VS Code</a> by yours truly. Built with <a href="https://react.dev/" target="_blank" class="link">ReactJS</a> and <a href="https://tailwindcss.com/" target="_blank" class="link">Tailwind CSS</a>, deployed with Github pages.',
       description:
-        'This site you are currently on. Loosely designed in <a href="https://www.figma.com/" target="_blank" class="link">Figma</a> and coded in <a href="https://code.visualstudio.com/" target="_blank" class="link">VS Code</a> by yours truly. Built with <a href="https://react.dev/" target="_blank" class="link">ReactJS</a> and <a href="https://tailwindcss.com/" target="_blank" class="link">Tailwind CSS</a>, deployed with Github pages.',
+        'You are currently exploring this very site! This website was born from the fusion of design and code, brought to life by yours truly.',
+      description2:
+        "This project reflects not only the technical skills but also the creative vision that I bring to my work. It's a testament to the power of technology in transforming ideas into reality.",
+      keyTechnologies: {
+        Design:
+          'The visual blueprint of this site took shape in Figma, providing a foundation for its aesthetics and user experience.',
+        Development:
+          "Every line of code, from the backend to the frontend, was meticulously crafted in Visual Studio Code.",
+        'Frontend Framework':
+          'The site was developed using the power and flexibility of ReactJS, ensuring a dynamic and interactive user experience.',
+        Styling:
+          'Tailwind CSS played a significant role in shaping the visual identity and responsiveness of this site, making it as visually appealing as it is functional.',
+        Deployment:
+          'The site is seamlessly accessible to the world, thanks to its deployment on GitHub Pages, making it available for anyone to explore and appreciate.',
+      },
       altText: 'ishawshank.github.io screenshot',
       url: '',
       imgType: 'landscape',
@@ -121,7 +139,15 @@ export const resumeData = {
       name: 'Golf launch monitor averages',
       img: 'PGATourAverages.png',
       description:
-        'Web app that is used to display PGA tour launch monitor stat averages for use in Golf Simulators. This site was built using Nuxt.js and Tailwind CSS.',
+        'Presenting a web application designed to elevate the Golf Simulator experience by showcasing PGA Tour launch monitor stat averages. Crafted with precision and expertise, this project encapsulates the essence of golf and technology.',
+      description2:
+        "With this project, I've blended a passion for golf with technical acumen to create a platform that enhances the experience of golf enthusiasts and simulator users.",
+      keyTechnologies: {
+        Framework:
+          'The heart of this application beats with the power of Nuxt.js, offering seamless rendering and a delightful user interface.',
+        'Visual Appeal':
+          'The user interface and aesthetics have been finely tuned using the versatile styling of Tailwind CSS, ensuring a visually pleasing and responsive design.',
+      },
       altText: 'PGA Tour Averages screenshot',
       url: 'https://ishawshank.github.io/golf-launch-monitor-averages/',
       imgType: 'landscape',
@@ -131,7 +157,17 @@ export const resumeData = {
       name: 'Shawshank Golf Stats',
       img: 'ShawshankGolfStats.png',
       description:
-        'Golf stat tracking mobile app. I built this app using React Native, Redux, and Expo. I have not yet released this to the apple or google stores as it is still in beta testing.',
+        "Introducing a golf enthusiast's dream—a mobile app dedicated to tracking your golf stats. This app, meticulously crafted for both iOS and Android platforms, has been a labor of love and expertise.",
+      description2:
+        "While the app is not yet released on the Apple App Store or Google Play Store, it's currently in its beta testing phase. This means it's continually evolving, improving, and gearing up for a full-scale launch in the near future. Stay tuned for its official release!",
+      keyTechnologies: {
+        Framework:
+          'Developed using the power and flexibility of React Native, this app ensures a smooth and consistent user experience across both major mobile platforms.',
+        'State Management':
+          'Leveraging the capabilities of Redux, the app offers efficient and organized data management.',
+        'Development Environment':
+          'Created with Expo, the app simplifies development and accelerates the process, making it a robust tool for golf enthusiasts.',
+      },
       altText: 'ishawshank.github.io screenshot',
       url: '',
       imgType: 'portrait',

@@ -16,7 +16,7 @@ const Intro = () => {
         <p className='introText'>I'm <span className='introName'>Kevin Shaw</span></p>
         <span className='introTitle'>Senior Full Stack Engineer</span>
         <p className='introDescription mb-3'>
-          Husband, Dad of 2, and Software Engineer with 7+ years of engineering experience and over 20+ years of professional experience.
+        I'm a dedicated husband, a proud father of two, and a seasoned Software Engineer. With more than seven years of engineering experience under my belt and a professional journey spanning over two decades, I'm passionate about solving complex problems and creating innovative solutions.
         </p>
         <div className='buttonContainer flex justify-center lg:justify-start'>
           <button className='hireMeBtn' onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth'})}>

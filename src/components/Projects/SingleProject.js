@@ -1,20 +1,73 @@
-import React from 'react'
-import './SingleProject.css'
+import React, { useState } from 'react';
+import './SingleProject.css';
 
-const SingleProject = ({project}) => {
+const SingleProject = ({ project }) => {
+  const [showTechnology, setShowTechnology] = useState(false);
+  const [listClass, setListClass] = useState('hidden');
+
+  const handleClick = (event) => {
+    event.preventDefault();
+
+    const newListClass = !showTechnology ? 'block' : 'hidden';
+    setShowTechnology(!showTechnology);
+    setListClass(newListClass);
+  };
+
   return (
     <div
-      className='project rounded flex flex-col items-center hover:bg-zinc-800 mt-8' 
-      
+      className="project rounded flex flex-col items-center hover:bg-zinc-800 mt-8"
+      onClick={handleClick}
     >
-      <div className={'imageContainer flex justify-center items-center ' + project.imgType}>
-        <img className='image' src={require(`../../assets/${project.img}`)} alt={project.altText} />
+      <div
+        className={
+          'imageContainer flex justify-center items-center ' +
+          project.imgType
+        }
+      >
+        <img
+          className="image"
+          src={require(`../../assets/${project.img}`)}
+          alt={project.altText}
+        />
       </div>
-      <h4 className='projectHeader text-2xl font-normal'>{project.name}</h4>
-      <p className='projectDesc p-4 px-16 lg:px-4' dangerouslySetInnerHTML={{__html: project.description}} />
-      { project.url !== '' && (<a href={project.url} target='_blank' rel="noreferrer" className='link'>Check it out ></a>)}
-    </div>
-  )
-}
+      <h4 className="projectHeader text-2xl font-normal">
+        {project.name}
+      </h4>
+      <div className="projectDesc p-4 px-16 lg:px-4">
+        <p className="projectDescText my-4">{project.description}</p>
+        <div className={'bg-zinc-800 rounded-lg w-full ' + listClass}>
+          <h4 className="text-center font-normal py-2 text-lg">
+            Key technologies used:
+          </h4>
+          <ul className="list-disc ml-6">
+            {Object.entries(project.keyTechnologies).map(
+              ([key, value]) => {
+                return (
+                  <li key={project.name + key} className="bullet">
+                    <span className="font-semibold">{key}</span>:{' '}
+                    {value}
+                  </li>
+                );
+              }
+            )}
+          </ul>
+        </div>
+        <p className="projectDescText my-4">{project.description2}</p>
+      </div>
 
-export default SingleProject
+      {/* <p className='projectDesc p-4 px-16 lg:px-4' dangerouslySetInnerHTML={{__html: project.description}} /> */}
+      {project.url !== '' && (
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="link"
+          href={project.url}
+        >
+          Check it out >
+        </a>
+      )}
+    </div>
+  );
+};
+
+export default SingleProject;

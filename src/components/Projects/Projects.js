@@ -6,7 +6,8 @@ import './Projects.css'
 const Projects = () => {
   return (
     <section id='projects' className='flex flex-col justify-center items-center'>
-      <h4 className='text-4xl font-semibold py-4 mt-8 lg:mt-0'>My Projects</h4>
+      <h4 className='projectsHeader text-4xl font-semibold py-4 mt-8 lg:mt-0'>My Projects</h4>
+      <p className='flex px-4 font-thin'>Select each project to learn more about the key technology used</p>
       <div className='projectGrid grid grid-cols-1 lg:grid-cols-3 w-full'>
         {resumeData.projects.map(project => (<SingleProject project={project} key={project.id} />))}
       </div>

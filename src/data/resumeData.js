@@ -30,6 +30,8 @@ export const resumeData = {
         'NuxtJS',
         'Docker',
         'Figma',
+        'DynamoDB',
+        'MySQL',
       ],
     },
     {
@@ -37,7 +39,7 @@ export const resumeData = {
       timeLine: '2019 - 2021',
       company: 'Ibotta',
       companyLink: 'https://ibotta.com',
-      title: 'Sofware Engineer',
+      title: 'Sofware Engineer (Backend)',
       description:
         'Drove initiatives aimed at enhancing core user experiences, ensuring the continued satisfaction of our user base. Demonstrated proficiency in building and maintaining robust microservices using Node, Java, Kotlin, and Rails, optimizing system performance and reliability.',
       skills: [
@@ -53,6 +55,7 @@ export const resumeData = {
         'ElasticSearch',
         'GraphQL',
         'Docker',
+        'MySQL',
       ],
     },
     {
@@ -70,6 +73,9 @@ export const resumeData = {
         '.NET',
         'Classic ASP',
         'Ruby',
+        'Travis',
+        'MSSQL',
+        'MySQL',
       ],
     },
     {
@@ -88,6 +94,7 @@ export const resumeData = {
         'Freemarker',
         'Jira',
         'Salesforce',
+        'MSSQL',
       ],
     },
     {

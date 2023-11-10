@@ -79,7 +79,7 @@ export const resumeData = {
       companyLink: 'https://granicus.com/',
       title: 'Web Developer / Designer',
       description:
-        'Spearheaded the management and modernization of legacy Classic ASP content management systems for government websites, ensuring improved functionality, security, and user experience.',
+        'Spearheaded management and feature development of legacy Classic ASP content management systems for government websites, ensuring improved functionality, security, and user experience.',
       skills: [
         'PHP',
         'Classic ASP',

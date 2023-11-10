@@ -15,7 +15,7 @@ export const resumeData = {
       companyLink: 'https://ibotta.com',
       title: 'Senior Full Stack Engineer',
       description:
-        'Spearheaded the development of the logged-in web experience, catering to a rapidly growing user base of 200,000+ monthly active users. Successfully led two cross-functional squads consisting of 11 engineers, prioritizing feature development to enhance our logged-in web experience. Thrived in a high-paced, feature development-focused environment, demonstrating adaptability and efficiency in delivering top-tier solutions. Played a pivotal role in the professional growth of several associate, mid-level, and senior engineers through mentorship and guidance. Leveraged expertise in Vue, Node, and Rails to architect and implement robust solutions, ensuring optimal performance and user satisfaction.',
+        'Spearheaded the development of the logged-in web experience, catering to a rapidly growing user base of 200,000+ monthly active users. Successfully led two cross-functional squads consisting of 11 engineers, prioritizing feature development to enhance our logged-in web experience. Thrived in a high-paced, feature development-focused environment, demonstrating adaptability and efficiency in delivering top-tier solutions. Played a pivotal role in the professional growth of several associate, mid-level, and senior engineers through mentorship and guidance. Leveraged expertise in Vue, Node, React, and Rails to architect and implement robust solutions, ensuring optimal performance and user satisfaction.',
       skills: [
         'VueJS',
         'NodeJS',

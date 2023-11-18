@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Intro = () => {
   return (
-    <section id='intro' className='grid grid-cols-1 lg:grid-cols-2 w-full'>
+    <section id='intro' className='grid grid-cols-1 lg:grid-cols-2 w-full pt-20 lg:pt-0'>
       <div className='introImage lg:order-2 flex flex-col justify-center items-center'>
         <div className='bgContainer'>
           <img src={bg} alt='profile' className='bg' />

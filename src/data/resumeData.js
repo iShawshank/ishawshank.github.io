@@ -129,8 +129,6 @@ export const resumeData = {
       keyTechnologies: {
         Design:
           'The visual blueprint of this site took shape in Figma, providing a foundation for its aesthetics and user experience.',
-        Development:
-          'Every line of code, from the backend to the frontend, was meticulously crafted in Visual Studio Code.',
         'Frontend Framework':
           'The site was developed using the power and flexibility of ReactJS, ensuring a dynamic and interactive user experience.',
         Styling:

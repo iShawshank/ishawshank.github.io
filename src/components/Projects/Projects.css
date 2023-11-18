@@ -1,5 +1,7 @@
 #projects {
-  min-height: 100vh;
+  min-height: calc(100svh - 5rem);
+  margin-block: 3rem;
+  @apply bg-zinc-800;
 }
 
 .projectGrid {

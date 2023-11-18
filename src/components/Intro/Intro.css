@@ -1,5 +1,5 @@
 #intro {
-  min-height: 90vh;
+  min-height: calc(100svh - 5rem);
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;

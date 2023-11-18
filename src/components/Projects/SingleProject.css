@@ -9,19 +9,26 @@
 .portrait {
   max-width: 92px;
   max-height: 200px;
+  border-radius: 0.5rem;
+  transition: transform 500ms;
+}
+
+.portrait:hover {
+  transform: scale(1.25) translateY(-20%);
 }
 
 .landscape {
   max-width: 360px;
+  border-radius: 2rem;
+  transition: transform 500ms;
+}
+
+.landscape:hover {
+  transform: scale(1.1) translateY(-20%);
 }
 
 .image {
   object-fit: contain;
-  transition: transform 500ms;
-}
-
-.image:hover {
-  transform: scale(1.3);
 }
 
 .projectDesc {

@@ -14,7 +14,7 @@ const SingleProject = ({ project }) => {
   };
 
   return (
-    <div className="project rounded flex flex-col items-center hover:bg-zinc-800 mt-8">
+    <div className="project rounded flex flex-col items-center mt-8">
       <div
         className={
           'imageContainer flex justify-center items-center ' +

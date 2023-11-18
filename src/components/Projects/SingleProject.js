@@ -14,10 +14,7 @@ const SingleProject = ({ project }) => {
   };
 
   return (
-    <div
-      className="project rounded flex flex-col items-center hover:bg-zinc-800 mt-8"
-      onClick={handleClick}
-    >
+    <div className="project rounded flex flex-col items-center hover:bg-zinc-800 mt-8">
       <div
         className={
           'imageContainer flex justify-center items-center ' +
@@ -35,11 +32,14 @@ const SingleProject = ({ project }) => {
       </h4>
       <div className="projectDesc p-4 px-16 lg:px-4">
         <p className="projectDescText my-4">{project.description}</p>
-        <div className={'bg-zinc-800 rounded-lg w-full ' + listClass}>
-          <h4 className="text-center font-normal py-2 text-lg">
-            Key technologies used:
+        <div className="rounded-lg w-full">
+          <h4
+            className="text-center font-normal py-2 text-lg link"
+            onClick={handleClick}
+          >
+            Key technologies >
           </h4>
-          <ul className="list-disc ml-6">
+          <ul className={'list-disc ml-6 ' + listClass}>
             {Object.entries(project.keyTechnologies).map(
               ([key, value]) => {
                 return (
@@ -54,8 +54,6 @@ const SingleProject = ({ project }) => {
         </div>
         <p className="projectDescText my-4">{project.description2}</p>
       </div>
-
-      {/* <p className='projectDesc p-4 px-16 lg:px-4' dangerouslySetInnerHTML={{__html: project.description}} /> */}
       {project.url !== '' && (
         <a
           target="_blank"

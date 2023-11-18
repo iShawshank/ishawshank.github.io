@@ -11,11 +11,10 @@ const NavBar = () => {
     <nav className="navContainer">
       <div className="navbar">
         <Link
-          activeClass="active"
+          activeClass="none"
           to="intro"
           spy={true}
           smooth={true}
-          offset={0}
           duration={500}
           id="headerName"
         >
@@ -27,7 +26,7 @@ const NavBar = () => {
             to="intro"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-10}
             duration={500}
             className="desktopMenuListItem"
           >

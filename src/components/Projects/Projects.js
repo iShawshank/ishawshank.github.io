@@ -12,7 +12,7 @@ const Projects = () => {
       <h4 className="projectsHeader text-4xl font-semibold py-4 mt-8 lg:mt-0">
         My Work
       </h4>
-      <div className="projectGrid grid grid-cols-1 lg:grid-cols-3 w-full">
+      <div className="projectGrid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
         {resumeData.projects.map((project) => (
           <SingleProject project={project} key={project.id} />
         ))}

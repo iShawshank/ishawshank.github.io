@@ -15,10 +15,9 @@
 }
 
 .aboutMe {
-  position: sticky;
   top: 6rem;
   margin: 10px;
-  max-height: 800px;
+  max-height: 880px;
 }
 
 .aboutMeHeader {

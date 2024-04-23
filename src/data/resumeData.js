@@ -160,7 +160,7 @@ export const resumeData = {
     },
     {
       id: 3,
-      name: 'Ibotta',
+      name: 'Ibotta.com web experience',
       img: 'Ibotta.png',
       description: `Logged in web experience for Ibotta Inc that enables full access to all Ibotta's direct to consumer offers and user flows.`,
       description2: `From conception to reality, I led the technical direction across the Web Domain and was influential across the entire site. I've influenced every user flow within the domain.`,

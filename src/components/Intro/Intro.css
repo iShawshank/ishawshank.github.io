@@ -10,9 +10,23 @@
 }
 
 .bgContainer {
-  width: 400px;
+  width: 375px;
+  height: 375px;
   border-radius: 50%;
+  animation: 7s border-shift infinite forwards;
   overflow: hidden;
+}
+
+@keyframes border-shift {
+  0% {
+    border-radius: 250px 150px 250px 150px;
+  }
+  50% {
+    border-radius: 150px 250px 150px 250px;
+  }
+  100% {
+    border-radius: 250px 150px 250px 150px;
+  }
 }
 
 .bg {
@@ -20,6 +34,7 @@
   height: 400px;
   object-fit: cover;
   transition: transform 1000ms ease;
+  translate: 0px -25px;
 }
 
 .bg:hover {

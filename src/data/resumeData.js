@@ -150,9 +150,9 @@ export const resumeData = {
         "With this project, I've blended a passion for golf with technical acumen to create a platform that enhances the experience of golf enthusiasts and simulator users.",
       keyTechnologies: {
         Framework:
-          'The heart of this application beats with the power of Nuxt.js, offering seamless rendering and a delightful user interface.',
+          'React was perfect for this project as it needed to be responsive, fast, and lightweight. I also added Tailwind CSS to ensure consisistent design across the site.',
         'Visual Appeal':
-          'The user interface and aesthetics have been finely tuned using the versatile styling of Tailwind CSS, ensuring a visually pleasing and responsive design.',
+          'I worked with a very large group of fellow Golf Simulator Enthusiasts to ensure the design and functionality of the application met the needs of the community.',
       },
       altText: 'PGA Tour Averages screenshot',
       url: 'https://ishawshank.github.io/golf-launch-monitor-averages/',
@@ -160,23 +160,13 @@ export const resumeData = {
     },
     {
       id: 3,
-      name: 'Shawshank Golf Stats',
-      img: 'ShawshankGolfStats.png',
-      description:
-        "Introducing a golf enthusiast's dream—a mobile app dedicated to tracking your golf stats. This app, meticulously crafted for both iOS and Android platforms, has been a labor of love and expertise.",
-      description2:
-        "While the app is not yet released on the Apple App Store or Google Play Store, it's currently in its beta testing phase. This means it's continually evolving, improving, and gearing up for a full-scale launch in the near future. Stay tuned for its official release!",
-      keyTechnologies: {
-        Framework:
-          'Developed using the power and flexibility of React Native, this app ensures a smooth and consistent user experience across both major mobile platforms.',
-        'State Management':
-          'Leveraging the capabilities of Redux, the app offers efficient and organized data management.',
-        'Development Environment':
-          'Created with Expo, the app simplifies development and accelerates the process, making it a robust tool for golf enthusiasts.',
-      },
-      altText: 'ishawshank.github.io screenshot',
-      url: '',
-      imgType: 'portrait',
+      name: 'Ibotta',
+      img: 'Ibotta.png',
+      description: `Logged in web experience for Ibotta Inc that enables full access to all Ibotta's direct to consumer offers and user flows.`,
+      description2: `From conception to reality, I led the technical direction across the Web Domain and was influential across the entire site. I've influenced every user flow within the domain.`,
+      altText: 'Ibotta.com image',
+      imgType: 'landscape',
+      url: 'https://ibotta.com/home',
     },
   ],
 };

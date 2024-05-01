@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3664419.css",
-    "main.js": "/static/js/main.9a3802ed.js",
+    "main.css": "/static/css/main.88e4a35e.css",
+    "main.js": "/static/js/main.d4c33a68.js",
     "static/media/bg.png": "/static/media/bg.c0440fcca2b842521eca.png",
     "static/media/bg.jpeg": "/static/media/bg.2a742ec3f2fa43378f01.jpeg",
     "static/media/portfolio.png": "/static/media/portfolio.225165472fe7e14fdb97.png",
@@ -9,11 +9,11 @@
     "static/media/Ibotta.png": "/static/media/Ibotta.a08097d9650bcb23eceb.png",
     "static/media/ShawshankGolfStats.png": "/static/media/ShawshankGolfStats.3eaa8172a6779559fc22.png",
     "index.html": "/index.html",
-    "main.b3664419.css.map": "/static/css/main.b3664419.css.map",
-    "main.9a3802ed.js.map": "/static/js/main.9a3802ed.js.map"
+    "main.88e4a35e.css.map": "/static/css/main.88e4a35e.css.map",
+    "main.d4c33a68.js.map": "/static/js/main.d4c33a68.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3664419.css",
-    "static/js/main.9a3802ed.js"
+    "static/css/main.88e4a35e.css",
+    "static/js/main.d4c33a68.js"
   ]
 }

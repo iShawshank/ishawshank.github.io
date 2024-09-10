@@ -2,16 +2,21 @@
   color: #1bf522;
 }
 
-.jobDesc, .jobTimeline {
+.jobDesc,
+.jobTimeline {
   font-size: medium;
   letter-spacing: 1px;
   font-weight: 200;
 }
 
-.ibotta {
-  color: #DF2A63;
+.ibotta-inc {
+  color: #df2a63;
 }
 
-.granicus {
-  color: #D61F36;
+.granicus-inc {
+  color: #d61f36;
+}
+
+.motion-recruitment-partners-llc {
+  color: #00ae42;
 }

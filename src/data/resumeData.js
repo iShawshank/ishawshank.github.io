@@ -9,9 +9,31 @@ export const resumeData = {
     "Beyond my professional pursuits, I treasure my time spent with my wife and two children. When I'm not working, you can often find me refining my golf game in my home simulator or on the golf course. I'm also an unwavering sports enthusiast, fervently supporting my hometown teams. In addition to my passion for sports, I'm an avid video game enthusiast, with a special love for immersive virtual worlds and gaming adventures.",
   experience: [
     {
+      id: 6,
+      timeLine: '2024 - PRESENT',
+      company: 'Motion Recruitment Partners LLC',
+      companyLink: 'https://motionrecruitment.com/',
+      title: 'Senior Full Stack Engineer',
+      description:
+        'Designed and implemented a custom AI chatbot from scratch, integrating it seamlessly into existing real estate web products. Conceptualized, designed, and developed a scalable, multi-tenant platform to consolidate and streamline multiple real estate websites, enhancing functionality and operational efficiency.',
+      skills: [
+        'React',
+        'NextJS',
+        'Material UI',
+        'CMS',
+        'Directus',
+        'GraphQL',
+        'Cloudfront',
+        'CI/CD',
+        'TypeScript',
+        'Docker',
+        'Figma',
+      ],
+    },
+    {
       id: 5,
-      timeLine: '2021 - PRESENT',
-      company: 'Ibotta',
+      timeLine: '2021 - 2024',
+      company: 'Ibotta Inc',
       companyLink: 'https://ibotta.com',
       title: 'Senior Full Stack Engineer',
       description:
@@ -37,7 +59,7 @@ export const resumeData = {
     {
       id: 4,
       timeLine: '2019 - 2021',
-      company: 'Ibotta',
+      company: 'Ibotta Inc',
       companyLink: 'https://ibotta.com',
       title: 'Sofware Engineer (Backend)',
       description:
@@ -61,7 +83,7 @@ export const resumeData = {
     {
       id: 3,
       timeLine: '2018 - 2019',
-      company: 'Granicus',
+      company: 'Granicus Inc',
       companyLink: 'https://granicus.com/',
       title: 'Sofware Engineer',
       description:
@@ -80,8 +102,8 @@ export const resumeData = {
     },
     {
       id: 2,
-      timeLine: '2016 - 2018',
-      company: 'Granicus',
+      timeLine: '2015 - 2018',
+      company: 'Granicus Inc.',
       companyLink: 'https://granicus.com/',
       title: 'Web Developer / Designer',
       description:
@@ -95,23 +117,6 @@ export const resumeData = {
         'Jira',
         'Salesforce',
         'MSSQL',
-      ],
-    },
-    {
-      id: 1,
-      timeLine: '2015 - 2016',
-      company: 'Granicus',
-      companyLink: 'https://granicus.com/',
-      title: 'Senior Customer Care Engineer',
-      description:
-        'Led and managed a core team of 12 dedicated customer care agents, ensuring the delivery of exceptional customer service to over 2,000 government agencies.',
-      skills: [
-        'Customer Service',
-        'Salesforce',
-        'Jira',
-        'Troubleshooting',
-        'Debugging',
-        'Problem Solving',
       ],
     },
   ],

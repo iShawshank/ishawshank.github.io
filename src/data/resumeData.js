@@ -11,11 +11,13 @@ export const resumeData = {
     {
       id: 6,
       timeLine: '2024 - PRESENT',
-      company: 'Motion Recruitment Partners LLC',
-      companyLink: 'https://motionrecruitment.com/',
+      company: 'Anywhere Real Estate',
+      companyLink: 'https://anywhere.re/',
       title: 'Senior Full Stack Engineer',
-      description:
-        'Designed and implemented a custom AI chatbot from scratch, integrating it seamlessly into existing real estate web products. Conceptualized, designed, and developed a scalable, multi-tenant platform to consolidate and streamline multiple real estate websites, enhancing functionality and operational efficiency.',
+      description: [
+        'Designed and implemented a custom AI chatbot from scratch, integrating it seamlessly into existing real estate web products.',
+        'Conceptualized, designed, and developed a scalable, multi-tenant platform to consolidate and streamline multiple real estate websites, enhancing functionality and operational efficiency.',
+      ],
       skills: [
         'React',
         'NextJS',
@@ -23,7 +25,7 @@ export const resumeData = {
         'CMS',
         'Directus',
         'GraphQL',
-        'Cloudfront',
+        'AWS',
         'CI/CD',
         'TypeScript',
         'Docker',
@@ -36,8 +38,12 @@ export const resumeData = {
       company: 'Ibotta Inc',
       companyLink: 'https://ibotta.com',
       title: 'Senior Full Stack Engineer',
-      description:
-        'Spearheaded the development of the logged-in web experience, catering to a rapidly growing user base of 200,000+ monthly active users. Successfully led two cross-functional squads consisting of 11 engineers, prioritizing feature development to enhance our logged-in web experience. Thrived in a high-paced, feature development-focused environment, demonstrating adaptability and efficiency in delivering top-tier solutions. Played a pivotal role in the professional growth of several associate, mid-level, and senior engineers through mentorship and guidance. Leveraged expertise in Vue, Node, React, and Rails to architect and implement robust solutions, ensuring optimal performance and user satisfaction.',
+      description: [
+        'Spearheaded the development of the logged-in web experience, catering to a rapidly growing user base of 200,000+ monthly active users.',
+        'Successfully led two cross-functional squads consisting of 11 engineers, prioritizing feature development to enhance our logged-in web experience.',
+        'Thrived in a high-paced, feature development-focused environment, demonstrating adaptability and efficiency in delivering top-tier solutions.',
+        'Played a pivotal role in the professional growth of several associate, mid-level, and senior engineers through mentorship and guidance.',
+      ],
       skills: [
         'VueJS',
         'NodeJS',
@@ -62,8 +68,10 @@ export const resumeData = {
       company: 'Ibotta Inc',
       companyLink: 'https://ibotta.com',
       title: 'Sofware Engineer (Backend)',
-      description:
-        'Drove initiatives aimed at enhancing core user experiences, ensuring the continued satisfaction of our user base. Demonstrated proficiency in building and maintaining robust microservices using Node, Java, Kotlin, and Rails, optimizing system performance and reliability.',
+      description: [
+        'Drove initiatives aimed at enhancing core user experiences, ensuring the continued satisfaction of our user base.',
+        'Demonstrated proficiency in building and maintaining robust microservices using Node, Java, Kotlin, and Rails, optimizing system performance and reliability.',
+      ],
       skills: [
         'NodeJS',
         'Java',
@@ -86,8 +94,9 @@ export const resumeData = {
       company: 'Granicus Inc',
       companyLink: 'https://granicus.com/',
       title: 'Sofware Engineer',
-      description:
+      description: [
         'Utilized a diverse skill set in Java, PHP, and .NET to maintain and enhance core legacy products, encompassing a wide spectrum of domains, including video, agenda and records management, and website design.',
+      ],
       skills: [
         'PHP',
         'JavaScript',
@@ -106,8 +115,9 @@ export const resumeData = {
       company: 'Granicus Inc.',
       companyLink: 'https://granicus.com/',
       title: 'Web Developer / Designer',
-      description:
+      description: [
         'Spearheaded management and feature development of legacy Classic ASP content management systems for government websites, ensuring improved functionality, security, and user experience.',
+      ],
       skills: [
         'PHP',
         'Classic ASP',
@@ -123,17 +133,13 @@ export const resumeData = {
   projects: [
     {
       id: 1,
-      name: 'ishawshank.github.io',
-      img: 'portfolio.png',
-      description3:
-        'Loosely designed in <a href="https://www.figma.com/" target="_blank" class="link">Figma</a> and coded in <a href="https://code.visualstudio.com/" target="_blank" class="link">VS Code</a> by yours truly. Built with <a href="https://react.dev/" target="_blank" class="link">ReactJS</a> and <a href="https://tailwindcss.com/" target="_blank" class="link">Tailwind CSS</a>, deployed with Github pages.',
+      name: 'Roulette Strategy Helper',
+      img: 'RouletteStratHelper.png',
       description:
-        'You are currently exploring this very site! This website was born from the fusion of design and code, brought to life by yours truly.',
+        'Roulette Strategy helper site that allows users to personalize their gambling experience based off their bankroll and learn from strategies from a popular content creator.',
       description2:
-        "This project reflects not only the technical skills but also the creative vision that I bring to my work. It's a testament to the power of technology in transforming ideas into reality.",
+        'With this project, I helped out a content creator share his strategies with his audience.',
       keyTechnologies: {
-        Design:
-          'The visual blueprint of this site took shape in Figma, providing a foundation for its aesthetics and user experience.',
         'Frontend Framework':
           'The site was developed using the power and flexibility of ReactJS, ensuring a dynamic and interactive user experience.',
         Styling:
@@ -141,8 +147,8 @@ export const resumeData = {
         Deployment:
           'The site is seamlessly accessible to the world, thanks to its deployment on GitHub Pages, making it available for anyone to explore and appreciate.',
       },
-      altText: 'ishawshank.github.io screenshot',
-      url: '',
+      altText: 'roulette strategy helper screenshot',
+      url: 'https://ishawshank.github.io/roulette-strategy-helper/',
       imgType: 'landscape',
     },
     {
@@ -168,7 +174,11 @@ export const resumeData = {
       name: 'Ibotta.com web experience',
       img: 'Ibotta.png',
       description: `Logged in web experience for Ibotta Inc that enables full access to all Ibotta's direct to consumer offers and user flows.`,
-      description2: `From conception to reality, I led the technical direction across the Web Domain and was influential across the entire site. I've influenced every user flow within the domain.`,
+      description2: `From conception to reality, I led the technical direction across the Web Domain and was influential across the entire site. I've influenced every user flow and component within the domain.`,
+      keyTechnologies: {
+        Framework:
+          'Vue, Nuxt, Vuex, Apollo, GraphQL and Tailwind were used for this large web application.',
+      },
       altText: 'Ibotta.com image',
       imgType: 'landscape',
       url: 'https://ibotta.com/home',

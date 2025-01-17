@@ -24,12 +24,10 @@ const Intro = () => {
           I'm <span className="introName">Kevin Shaw</span>
         </p>
         <span className="introTitle">Senior Full Stack Engineer</span>
-        <p className="introDescription mb-3">
-          I'm a dedicated husband, a proud father of two, and a
-          seasoned Software Engineer. With more than seven years of
-          engineering experience under my belt and a professional
-          journey spanning over two decades, I'm passionate about
-          solving complex problems and creating innovative solutions.
+        <p className="introDescription text-lg mb-3">
+          Seasoned Software Engineer with over a decade of
+          engineering experience. I'm passionate about solving complex
+          problems and creating innovative solutions.
         </p>
         <div className="buttonContainer flex justify-start gap-4">
           <a
@@ -37,10 +35,7 @@ const Intro = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon
-              className="linkImg"
-              icon={faLinkedin}
-            />
+            <FontAwesomeIcon className="linkImg" icon={faLinkedin} />
           </a>
           <a
             href="https://github.com/iShawshank"

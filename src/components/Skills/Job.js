@@ -7,6 +7,8 @@ const Job = ({ job }) => {
     <a
       href={job.companyLink}
       className="job hover:bg-zinc-800 grid grid-cols-1 lg:grid-cols-5 lg:mx-8 py-4 rounded  px-4 md:px-8"
+      target="_blank"
+      rel="noreferrer"
     >
       <p className="jobTimeline md:col-span-1">{job.timeLine}</p>
       <div className="jobInfo md:col-span-4 px-4">
@@ -18,9 +20,11 @@ const Job = ({ job }) => {
         >
           {job.company}
         </h4>
-        <p className="jobDesc text-sm mt-2  lg:pr-8">
-          {job.description}
-        </p>
+        <ul className="jobDesc text-md mt-2 lg:pr-8">
+          {job.description.map((item) => (
+            <li className="my-4 list-outside">{item}</li>
+          ))}
+        </ul>
         <div className="flex flex-wrap pt-4 px-4">
           {job.skills.map((skill) => (
             <span

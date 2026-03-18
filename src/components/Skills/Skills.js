@@ -5,7 +5,7 @@ import Job from './Job';
 
 const Skills = () => {
   return (
-    <section id="skills" className="flex justify-center">
+    <section id="skills" className="flex flex-col justify-center items-center">
       {/* <div className="about-me-wrapper hidden md:flex justify-center items-center">
         <div className="aboutMe sticky flex flex-col justify-start items-center max-w-5xl">
           <h4 className="aboutMeHeader text-3xl font-normal mb-4">
@@ -30,7 +30,7 @@ const Skills = () => {
           target="_blank"
           className="resumeLink lg:ml-8 lg:mt-8"
         >
-          View full Resume >
+          View full Resume &gt;
         </a>
       </div>
     </section>

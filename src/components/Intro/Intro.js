@@ -23,7 +23,7 @@ const Intro = () => {
         <p className="introText">
           I'm <span className="introName">Kevin Shaw</span>
         </p>
-        <span className="introTitle">Senior Full Stack Engineer</span>
+        <span className="introTitle">Lead Software Engineer</span>
         <p className="introDescription text-lg mb-3">
           Seasoned Software Engineer with over a decade of
           engineering experience. I'm passionate about solving complex

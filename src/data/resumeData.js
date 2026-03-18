@@ -4,7 +4,7 @@ export const resumeData = {
   whoAmI2:
     "Fast forward to the present, I've had the privilege of contributing to a wide range of projects, honing my skills and expanding my knowledge. My projects have included developing content management systems for government websites, crafting responsive video players for city council meetings, and creating internal portals to streamline various aspects of government agenda management and video recording.",
   whoAmI3:
-    "In my current role, I've taken on the challenge of managing a backend GraphQL API utilized by a mobile app that supports millions of users annually. Simultaneously, I've built a web platform from the ground up, which now boasts over 200,000 monthly active users and continues to grow.",
+    "In my current role, I've taken on the challenge of building a new multi-tenant platform to consolidate and streamline multiple consumer real estate websites. This endeavor has allowed me to leverage my expertise in software engineering to enhance functionality and operational efficiency across the plaform, serving millions of users and handling millions of requests per hour.",
   outsideOfWork:
     "Beyond my professional pursuits, I treasure my time spent with my wife and two children. When I'm not working, you can often find me refining my golf game in my home simulator or on the golf course. I'm also an unwavering sports enthusiast, fervently supporting my hometown teams. In addition to my passion for sports, I'm an avid video game enthusiast, with a special love for immersive virtual worlds and gaming adventures.",
   experience: [
@@ -13,23 +13,22 @@ export const resumeData = {
       timeLine: '2024 - PRESENT',
       company: 'Anywhere Real Estate',
       companyLink: 'https://anywhere.re/',
-      title: 'Senior Full Stack Engineer',
+      title: 'Lead Software Engineer',
       description: [
-        'Designed and implemented a custom AI chatbot from scratch, integrating it seamlessly into existing real estate web products.',
-        'Conceptualized, designed, and developed a scalable, multi-tenant platform to consolidate and streamline multiple real estate websites, enhancing functionality and operational efficiency.',
+        'Conceptualized and developed a scalable, multi-tenant platform to consolidate and streamline multiple consumer real estate websites, enhancing functionality and operational efficiency.',
+        'Designed and implemented a scalable mid-tier service to streamline requests from consumer sites by integrating multiple backend APIs, remapping data, and applying business rules to millions of requests per hour.',
+        'Lead full replatforming initiatives for ERA, Century 21, Coldwell Banker, and Better Home and Gardens real estate consumer websites to move to the new universal platform on very aggressive timelines in 2025 (All 4 consumer sites were fully replatformed onto the new platform in less than 12 months).'
       ],
       skills: [
         'React',
         'NextJS',
-        'Material UI',
+        'NodeJS',
         'CMS',
-        'Directus',
         'GraphQL',
         'AWS',
+        'Serverless',
         'CI/CD',
         'TypeScript',
-        'Docker',
-        'Figma',
       ],
     },
     {

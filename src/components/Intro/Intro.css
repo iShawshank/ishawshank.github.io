@@ -87,13 +87,21 @@
     width: 300px;
     height: 300px;
   }
-
+  .introTitle {
+    font-weight: 200;
+  }
   .introImage {
     height: 100%;
   }
-
+  .introDescription {
+    text-align: justify;
+    margin-top: 15px;
+  }
   .introContent {
     height: 100%;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
   }
   #intro {
     min-height: 0;

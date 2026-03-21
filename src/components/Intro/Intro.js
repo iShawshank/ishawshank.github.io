@@ -27,9 +27,12 @@ const Intro = () => {
         <p className="introDescription text-lg mb-3">
           Seasoned Software Engineer with over a decade of
           engineering experience. I'm passionate about solving complex
-          problems and creating innovative solutions.
+          problems and creating innovative solutions. I bring a unique strength 
+          in stakeholder communication, combining deep technical expertise 
+          with 15+ years of customer service experience to align teams, 
+          clarify requirements, and drive impactful outcomes.
         </p>
-        <div className="buttonContainer flex justify-start gap-4">
+        <div className="buttonContainer flex justify-center lg:justify-start gap-4">
           <a
             href="https://www.linkedin.com/in/ishawshank39/"
             target="_blank"
